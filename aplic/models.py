@@ -80,6 +80,7 @@ class Turma(models.Model):
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
 
+
     def __str__(self):
         return f"{self.ano} / {self.semestre} / {self.turma} / {self.disciplina}"
 
